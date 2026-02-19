@@ -43,7 +43,7 @@ layers:
   - {t: SPACE, h: Left SPACE}
   - {t: BACKSPACE, h: Left SPACE}
   - ','
-  - {t: ENTER, h: Right SPACE}
+  - {t: KP ENTER, h: Right SPACE}
   - CAPSLOCK
   - CAPSLOCK
   - OUT TOG
