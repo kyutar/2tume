@@ -13,8 +13,8 @@ layers:
   - O
   - P
   - '['
-  - LCTRL
-  - A
+  - {t: LEFT CONTROL, h: Left SPACE}
+  - {t: A, h: Left SPACE}
   - S
   - D
   - F
@@ -23,8 +23,8 @@ layers:
   - {t: J, s: ENTER}
   - K
   - L
-  - ;
-  - ''''
+  - {t: ;, h: Right SPACE}
+  - {t: '`', h: Right SPACE}
   - LSHIFT
   - Z
   - X
@@ -40,10 +40,10 @@ layers:
   - Config Layer
   - LWIN
   - LALT
-  - {t: SPACE, h: Left SPACE}
-  - {t: BACKSPACE, h: Left SPACE}
+  - SPACE
+  - BACKSPACE
   - ','
-  - {t: ENTER, h: Right SPACE}
+  - ENTER
   - CAPSLOCK
   - CAPSLOCK
   - OUT TOG
@@ -313,7 +313,7 @@ layers:
   - (
   - )
   - ']'
-  - {t: ▽, type: trans}
+  - {type: held}
   - '1'
   - '2'
   - '3'
@@ -340,7 +340,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - .
   - {t: ▽, type: trans}
@@ -383,7 +383,7 @@ layers:
   - ←
   - ↓
   - →
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -403,7 +403,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
