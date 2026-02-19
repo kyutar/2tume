@@ -44,8 +44,8 @@ layers:
   - {t: BACKSPACE, h: Left SPACE}
   - ','
   - {t: ENTER, h: Right SPACE}
-  - RALT
-  - RWIN
+  - CAPSLOCK
+  - CAPSLOCK
   - OUT TOG
   - '&out_bt_nxt'
   - ↑
