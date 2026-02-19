@@ -40,10 +40,10 @@ layers:
   - Config Layer
   - LWIN
   - LALT
-  - SPACE
-  - Left SPACE
-  - Right SPACE
-  - SPACE
+  - {t: SPACE, h: Left SPACE}
+  - {t: BACKSPACE, h: Left SPACE}
+  - ','
+  - {t: ENTER, h: Right SPACE}
   - RALT
   - RWIN
   - OUT TOG
@@ -340,9 +340,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -402,8 +402,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
